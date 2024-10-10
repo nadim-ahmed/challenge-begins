@@ -55,7 +55,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     padding-top: 30px;
     margin-bottom: 75px;
 }
