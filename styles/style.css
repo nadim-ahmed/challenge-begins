@@ -24,6 +24,13 @@
     background-color: rgb(255, 255, 255);
 }
 
+.descriptions {
+    color: rgb(13, 19, 33);
+    opacity: 0.7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 /* Nav Styles */
 nav {
     margin: 50px 150px;
@@ -31,6 +38,7 @@ nav {
 
 nav ul {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     list-style: none;
 }
@@ -40,4 +48,39 @@ nav ul {
     font-size: 28px;
     font-weight: 800;
     text-decoration: none;
+}
+
+/* Banner Styles */
+.banner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: url('/assets/Hero-bg.png');
+    padding-top: 30px;
+    margin-bottom: 75px;
+}
+
+.banner-title {
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    width: 60%;
+    margin: 32px auto 24px;
+}
+
+.banner>p {
+    width: 50%;
+    margin: auto;
+}
+
+.btn-contact {
+    width: 244px;
+    height: 65px;
+    padding: 21px 24px 21px 24px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 32px auto 45px;
 }
