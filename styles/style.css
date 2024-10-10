@@ -216,3 +216,63 @@ nav ul {
     flex-direction: column;
     gap: 20px;
 }
+
+/* My Next Target Section Styles */
+
+.next-target {
+    text-align: center;
+}
+
+.next-target-skills {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: left;
+}
+
+.reactjs {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-top: 48px;
+}
+
+.react-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nodejs {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+}
+
+.node-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mongodb {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 50px;
+}
+
+.mongodb-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
