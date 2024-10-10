@@ -11,6 +11,11 @@
     padding: 0;
 }
 
+main {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
 /* Shared Styles */
 
 .btn-primary {
@@ -31,6 +36,19 @@
     font-weight: 400;
 }
 
+.section-title {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.section-header {
+    max-width: 80%;
+    margin: auto;
+}
+
+
 /* Nav Styles */
 nav {
     margin: 50px 150px;
@@ -50,7 +68,7 @@ nav ul {
     text-decoration: none;
 }
 
-/* Banner Styles */
+/* Banner Section Styles */
 .banner {
     display: flex;
     flex-direction: column;
@@ -83,4 +101,43 @@ nav ul {
     font-size: 20px;
     font-weight: 600;
     margin: 32px auto 45px;
+}
+
+/* Why Web Development Section Styles */
+.dev-motive {
+    padding: 80px 140px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.dev-motive-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 120px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.dev-motive-subtitle {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.motive-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    max-width: 55%;
+}
+
+.motive-content>button {
+    width: 170px;
 }
