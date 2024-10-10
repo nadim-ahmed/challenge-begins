@@ -48,6 +48,19 @@ main {
     margin: auto;
 }
 
+.skills {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.learn-more-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
 
 /* Nav Styles */
 
@@ -161,4 +174,45 @@ nav ul {
 
 .inspiration-video>iframe {
     border-radius: 16px;
+}
+
+/* My Current Target Section Styles */
+
+.current-target {
+    text-align: center;
+}
+
+.current-target-skills {
+    display: flex;
+    margin: 48px auto 110px;
+    text-align: left;
+}
+
+.html {
+    border-radius: 16px;
+    background-color: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.css {
+    border-radius: 16px;
+    background-color: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+    margin-right: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.javascript {
+    border-radius: 16px;
+    background-color: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
