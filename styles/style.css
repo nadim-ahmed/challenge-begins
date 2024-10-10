@@ -10,3 +10,34 @@
     margin: 0;
     padding: 0;
 }
+
+/* Shared Styles */
+
+.btn-primary {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 22px;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Nav Styles */
+nav {
+    margin: 50px 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-title {
+    color: rgb(13, 19, 33);
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+}
